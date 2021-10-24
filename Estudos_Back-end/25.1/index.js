@@ -5,6 +5,7 @@ const games = [
     { name: 'Calcular Velocidade Média', script: './velocidade.js' },
     { name: 'Sorteio', script: './sorteio.js' },
     { name: 'Calcular Fatorial', script: './fatorial.js' },
+    { name: 'Exibir n números de fibonacci', script: './fibonacci.js' },
 ];
 
 let list = games.map((game, index) => `${index + 1} - ${game.name}`);
