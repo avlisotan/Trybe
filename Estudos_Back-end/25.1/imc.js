@@ -5,7 +5,7 @@ function calcularImc(peso, altura) {
 function pesoIdeal(altura) {
     const pesoMinimo = (18.6 * Math.pow(altura / 100, 2)).toFixed(2);
     const pesoMaximo = (24.9 * Math.pow(altura / 100, 2)).toFixed(2);
-    return console.log(`Seu peso ideal deve estar entre ${pesoMinimo}kg e ${pesoMaximo}kg`);
+    return console.log(`Seu peso ideal é entre ${pesoMinimo}kg e ${pesoMaximo}kg`);
 }
 
 function imprimirImc(peso, altura) {
