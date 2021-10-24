@@ -3,7 +3,8 @@ const readline = require('readline-sync');
 const games = [
     { name: 'Calcular IMC', script: './imcGrau.js' },
     { name: 'Calcular Velocidade Média', script: './velocidade.js' },
-    { name: 'Sorteio', script: './sorteio.js' }
+    { name: 'Sorteio', script: './sorteio.js' },
+    { name: 'Calcular Fatorial', script: './fatorial.js' },
 ];
 
 let list = games.map((game, index) => `${index + 1} - ${game.name}`);
