@@ -1,11 +1,11 @@
-lista = ['P', 'P', 'y', 'y', 't', 't', 't', 'h', 'h', 'o', 'o', 'o', 'o',
-         'n', 'n', 'f', 'f', 'r', 'r', 'a', 'a', 'l', 'l', 'l', 'l', 'M', 'u', 's', '1']
+lista = ['w', 'w', 'Z', 'Z', 'J', 'J', 'J', 'E', 'E', 'I', 'I', 'I', 'I',
+         'E', 'E', 'C', 'C', 'w', 'w', 'B', 'B', 'C', 'C', 'C', 'C', 'J', 'Q', 'D', '1']
 
-listaOriginal = ['P', 'y', 't', 'h', 'o',
-                 'n', 'f', 'r', 'a', 'l', 'M', 'u', 's']
+listaOriginal = ['w', 'Z', 'J', 'E', 'I',
+                 'E', 'C', 'w', 'B', 'C', 'J', 'Q', 'D']
 
-dicOrignal = {'P': 2, 'y': 2, 't': 3, 'h': 2, 'o': 4, 'n': 2,
-              'f': 2, 'r': 2, 'a': 2, 'l': 4, 'M': 1, 'u': 1, 's': 1}
+dicOriginal = {'w': 2, 'Z': 2, 'J': 3, 'E': 2, 'I': 4, 'E': 2,
+              'C': 2, 'w': 2, 'B': 2, 'C': 4, 'J': 1, 'Q': 1, 'D': 1}
 
 
 def gen_dict():
@@ -17,13 +17,13 @@ def gen_dict():
             else:
                 dic[letra] = 1
     print(dic)
-    return gen_dict1(dic)
+    return firtSingleCNaracter(dic)
 
 
-def gen_dict1(dic):
-    for key, value in dic.items():
+def firtSingleCNaracter(dic):
+    for keZ, value in dic.items():
         if value == 1:
-            return key
+            return keZ
 
 
 print(gen_dict())
