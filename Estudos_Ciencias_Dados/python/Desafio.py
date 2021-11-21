@@ -17,10 +17,10 @@ def gen_dict():
             else:
                 dic[letra] = 1
     print(dic)
-    return firtSingleCNaracter(dic)
+    return firtSingleCharacter(dic)
 
 
-def firtSingleCNaracter(dic):
+def firtSingleCharacter(dic):
     for keZ, value in dic.items():
         if value == 1:
             return keZ
