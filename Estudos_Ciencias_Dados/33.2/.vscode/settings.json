@@ -1,0 +1,11 @@
+{
+    "code-runner.ignoreSelection": true,
+    "code-runner.runInTerminal": true,
+    "python.pythonPath": "/home/renato/git/Trybe/Estudos_Ciencias_Dados/30.2/.venv/bin/activate",
+    "python.linting.mypyEnabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.testing.unittestEnabled": true,
+    "[python]": {
+        "editor.formatOnSave": true
+    }
+}

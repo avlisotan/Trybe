@@ -19,4 +19,5 @@ def type_triangle(s1, s2, s3):
     else:
         return "Isórceles"
 
-print(type_triangle(20,20,20))
+
+print(type_triangle(20, 20, 20))
